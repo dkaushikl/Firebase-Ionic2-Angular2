@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar hideBackButton="true">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Book List
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="addbook()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <!-- <button ion-button (click)="setData()">Set Data</button>
+  <button ion-button (click)="getData()">Set Data</button> -->
+  <h2>Book list</h2>
+  <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+  <ion-list>
+    <ion-item-sliding *ngFor="let book of books | async">
+      <ion-item>
+        <p>Title: {{book.title}}</p>
+        <p>Author: {{book.author}}</p>
+      </ion-item>
+      <ion-item-options side="right">
+        <button ion-button color="secondary" (click)="editBook(book)">
+          <ion-icon name="md-create">Edit</ion-icon>
+          </button>
+      </ion-item-options>
+      <ion-item-options side="left">
+        <button ion-button color="danger" (click)="deleteBook(book.$key)">
+          <ion-icon name="md-trash">Delete</ion-icon>
+          </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

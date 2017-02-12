@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-navbar  color="menu">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Sign Up
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding scroll="false">
+  <ion-grid>
+    <ion-row>
+      <ion-col width-100>
+        <div class="header">HELLO!</div>
+        <div class="signup">SIGN UP TO GET STARTED.</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid class="box-background-color">
+    <ion-list class="input-list" class="box-background-color">
+       <!-- [formGroup]="signupForm" -->
+      <form>
+        <ion-item class="box-background-color">
+          <ion-input type="text" placeholder="Name" class="input"></ion-input>
+        </ion-item>
+        <ion-item class="box-background-color">
+          <ion-input type="text" placeholder="Email Address" class="input"></ion-input>
+        </ion-item>
+        <ion-item class="box-background-color">
+          <ion-input type="password" placeholder="Password" class="input"></ion-input>
+        </ion-item>
+        <ion-item class="signup box-background-color">
+          <ion-input type="password" placeholder="Conform Password"  class="input"></ion-input>
+        </ion-item>
+        <ion-item class="box-background-color" no-lines>
+           <!-- (click)="signup()" -->
+          <button ion-button padding full secondary class="buttons" color="secondary">Sign Up</button>
+        </ion-item>
+      </form>
+    </ion-list>
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col width-40 class="social-button">
+        <hr/>
+      </ion-col>
+      <ion-col width-20 class="center">
+        <span>or</span>
+      </ion-col>
+      <ion-col width-40>
+        <hr/>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-50 class="facebook">
+        <button ion-button icon-left full class="facebook-color"><ion-icon name="logo-facebook"></ion-icon>Facebook</button>
+      </ion-col>
+      <ion-col width-50 class="googleplus">
+        <button ion-button icon-left full class="googleplus-color">
+               <ion-icon name="logo-googleplus"></ion-icon>
+               Google +
+            </button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="footer-text">Have an account? <a class="footer-link" (click)="SignIn()"> Sign In </a></div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

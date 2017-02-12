@@ -1,0 +1,91 @@
+page-signin {
+  .list-ios > .item-block:first-child {
+    border-top: 0 solid #c8c7cc !important;
+  }
+
+  .list-ios > .item-block:last-child,
+  .list-ios > .item-wrapper:last-child .item-block {
+    border-bottom: 0 solid #c8c7cc !important;
+  }
+
+  .signin {
+    font-size: 20px;
+    text-align: $text-align-center;
+  }
+
+  .booking {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: $text-align-center;
+  }
+
+  .input-list {
+    margin-bottom: 10px;
+  }
+
+  .text-bottom {
+    margin-bottom: 10px;
+  }
+
+  .buttons {
+    border-radius: 5px;
+    padding: 25px !important;
+    font-size: 20px !important;
+    text-align: center;
+  }
+  
+  .hr
+  {
+        border: 1px solid #eee;
+  }
+  .center {
+    text-align: center;
+  }
+
+  .social-button {
+    margin-bottom: $margin-bottom10;
+  }
+  .input
+  {
+    font-style: italic;
+font-size: 20px;
+  }
+  .scroll-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    overflow-x: initial;
+    overflow-y: initial;
+    -webkit-overflow-scrolling: touch;
+    will-change: scroll-position;
+    contain: size style layout;
+  }
+
+  .facebook-color {
+    background-color: #3b5998;
+    border-radius: $border-radius-botton;
+  }
+
+  .signup {
+    margin-bottom: $margin-bottom10;
+  }
+
+  .googleplus-color {
+    background-color: #d34836;
+    border-radius: $border-radius-botton;
+  }
+
+  .footer-text {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .footer-link {
+    color: green;
+    font-weight: bold;
+  }
+}

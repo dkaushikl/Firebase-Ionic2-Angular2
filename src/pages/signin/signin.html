@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-navbar  color="menu">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Sign In
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding scroll="false">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="signin">SIGN IN TO START!</div>
+        <div class="booking">BOOKING.</div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="facebook">
+       <button ion-button icon-left full class="facebook-color"><ion-icon name="logo-facebook"></ion-icon> Continue with Facebook</button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="googleplus">
+      <button ion-button icon-left full class="googleplus-color"><ion-icon name="logo-googleplus"></ion-icon> Continue with Google+</button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col width-40 class="social-button">
+       <hr class="hr"/>
+      </ion-col>
+      <ion-col width-20 class="center">
+        <span>or</span>
+      </ion-col>
+      <ion-col width-40>
+        <hr class="hr"/>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid class="box-background-color">
+
+  <ion-list  class="input-list">
+    <ion-item class="box-background-color">
+      <ion-input type="text" placeholder="Email Address" class="input"></ion-input>
+    </ion-item>
+    <ion-item class="signup box-background-color">
+      <ion-input type="password" placeholder="Password" class="input"></ion-input>
+    </ion-item >
+        <ion-item class="box-background-color">
+    <button ion-button padding full  secondary class="buttons" color="secondary">Sign Up</button>
+    </ion-item>
+  </ion-list>
+</ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="footer-text">Have an account? <a class="footer-link" (click)="SignIn()"> Sign In </a></div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
