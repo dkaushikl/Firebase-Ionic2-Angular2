@@ -1,19 +1,22 @@
 # Firebase-Ionic2-Angular2
 Building hybrid mobile apps using Ionic 2 and Firebase
 
-Frameworks - Tools - Libraries
+<h2>Frameworks - Tools - Libraries</h2>
+<ul style="list-style-type:disc">
+  <li>Ionic 2</li>
+  <li>Angular 2</li>
+  <li>Firebase</li>
+  <li>TypeScript</li>
+</ul>  
 
-Ionic 2
-Angular 2
-Firebase
-TypeScript
-App's features
-Push Notification,
-Google Map,
-Firebase,
-LocalStorage,
-SignUp Page
-Login Page,
+<h2>App's features</h2>
+<ul style="list-style-type:disc">
+  <li>Push Notification</li>
+  <li>Google Map</li>
+  <li>Local Storage</li>
+  <li>SignUp Page</li>
+  <li>Login Page</li>
+</ul>  
  
 <h2>Instructions start ionic app</h2>
 1) Install Node js  <a href="https://nodejs.org/en/download/">Here</a><br/>
