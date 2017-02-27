@@ -15,7 +15,7 @@ LocalStorage,
 SignUp Page
 Login Page,
  
-<h2>Instructions Start Ionic App</h2>
+<h2>Instructions start ionic app</h2>
 1) Install Node js  <a href="https://nodejs.org/en/download/">Here</a><br/>
 2) Open Node js command prompt or cmd<br/>
 3) Open the app in your Favourite IDE(i prefer visual studio or atom)<br/>
